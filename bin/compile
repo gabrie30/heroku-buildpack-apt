@@ -10,7 +10,7 @@ set -e
 YELLOW='\033[1;33m'
 RESET='\033[0m'
 
-echo -e "${YELLOW}WARNING: This buildpack is no longer maintained. But is kept as a fork at https://github.com/gabrie30/heroku-buildpack-apt, will need to look at removing this at some point."
+echo -e "${YELLOW}WARNING: This buildpack (https://github.com/ddollar/heroku-buildpack-apt) is no longer maintained. But is kept as a fork at https://github.com/gabrie30/heroku-buildpack-apt, will need to look at removing this at some point."
 
 # parse and derive params
 BUILD_DIR=$1
